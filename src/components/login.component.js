@@ -12,7 +12,7 @@ import {Redirect} from "react-router-dom";
  			password: this.password
  		}
  		console.log(data);
- 		axios.post('https://avishkadev-api.herokuapp.com/api/auth',data).then(
+ 		axios.post('https://avishka-dev.herokuapp.com/api/auth',data).then(
  			res=>{
  			console.log(res.data.token);
         localStorage.setItem('token', res.data.token);
