@@ -9,7 +9,7 @@ import {  Button, Modal, ModalBody, ModalHeader,  FormInput } from "shards-react
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: `http://localhost:5000/`,
+    baseURL: `https://avishkadev-api.herokuapp.com`,
     headers: {
     	'x-auth-token': localStorage.getItem('token')
     }
