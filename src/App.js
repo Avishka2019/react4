@@ -1,4 +1,4 @@
-import React, { Component , lazy, Suspense  } from 'react';
+import React, { Component } from 'react';
 //import logo from './logo.svg';
 //import './App.css';
 //import axios from 'axios';
@@ -11,7 +11,7 @@ import Product from  "./components/product.component";
 import Login from  "./components/login.component";
 import BootstrapModal from  "./components/reactbootstrap.component";
 //const Login = React.lazy(() => import('./components/login.component'));
-const Login = lazy(() => import('./components/login.component'));
+//const Login = lazy(() => import('./components/login.component'));
 import {
   BrowserRouter,
   Switch,
