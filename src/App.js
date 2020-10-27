@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense  } from 'react';
 //import logo from './logo.svg';
 //import './App.css';
 //import axios from 'axios';
@@ -9,7 +9,7 @@ import Post from  "./components/post.component";
 import Home from  "./components/home.component";
 import Product from  "./components/product.component";
 import Login from  "./components/login.component";
-//import BootstrapModal from  "./components/reactbootstrap.component";
+import BootstrapModal from  "./components/reactbootstrap.component";
 
 
 import {
