@@ -8,8 +8,10 @@ import React, { Component } from 'react';
 import Post from  "./components/post.component";
 import Home from  "./components/home.component";
 import Product from  "./components/product.component";
-import Login from  "./components/login.component";
+//import Login from  "./components/login.component";
 //import BootstrapModal from  "./components/reactbootstrap.component";
+const Login = React.lazy(() => import('./components/login.component'));
+
 import {
   BrowserRouter,
   Switch,
