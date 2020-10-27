@@ -8,6 +8,7 @@ import React, { Component } from 'react';
 import Post from  "./components/post.component";
 import Home from  "./components/home.component";
 import Product from  "./components/product.component";
+import Login from  "./components/Login.component";
 //import BootstrapModal from  "./components/reactbootstrap.component";
 import {
   BrowserRouter,
@@ -34,7 +35,7 @@ render(){
            
             <Route exact path="/" component={Home}/>
           <Route exact path="/product" component={Product}/>
-            
+             <Route exact path="/login" component={Login}/>
             <Route path="/post/:id" component={Post} />
           </Switch>
           
