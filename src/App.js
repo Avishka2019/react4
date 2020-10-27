@@ -8,7 +8,7 @@ import React, { Component } from 'react';
 import Post from  "./components/post.component";
 import Home from  "./components/home.component";
 import Product from  "./components/product.component";
-mport Login from  "./components/login.component";
+import Login from  "./components/login.component";
 //import BootstrapModal from  "./components/reactbootstrap.component";
 
 
