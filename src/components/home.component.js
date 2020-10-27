@@ -14,7 +14,7 @@ import {
 
 
  const api = axios.create({
-    baseURL: `http://localhost:5000/`,
+    baseURL: `https://avishka-dev.herokuapp.com`,
     headers: {
       'x-auth-token': localStorage.getItem('token')
     }
