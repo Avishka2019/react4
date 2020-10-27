@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Alert } from "shards-react";
 
 const api = axios.create({
-    baseURL: `https://avishka-dev.herokuapp.com/api/auth/`,
+    baseURL: `https://avishka-dev.herokuapp.com`,
     headers: {
     	'x-auth-token': localStorage.getItem('token')
     }
